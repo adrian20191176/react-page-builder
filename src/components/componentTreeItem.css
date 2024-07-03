@@ -1,0 +1,16 @@
+.tree-item-body {
+	animation: fade-in forwards 250ms ease-in-out;
+		transform-origin: top left;
+}
+
+@keyframes fade-in {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 100%;
+	}
+}
